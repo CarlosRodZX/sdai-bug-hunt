@@ -24,7 +24,7 @@ ul {
   padding: 0;
 }
 
-button {
+.funFactButton {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #61dafb;
@@ -33,6 +33,10 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+#funFact:hover {
   background-color: #21a1f1;
+}
+
+#funFact {
+  display: none;
 }
